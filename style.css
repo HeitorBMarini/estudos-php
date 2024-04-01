@@ -1,0 +1,32 @@
+body,
+html {
+  height: 100vh; /* Isso permite que o body estenda pela altura total da página */
+  margin: 0; /* Remove margens padrão */
+}
+main {
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.container {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+  border-radius: 20px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  align-items: center;
+}
+h1,
+h3 {
+  margin: 10px 0;
+}
+dt {
+  margin-top: 20px;
+  font-weight: bold;
+}
+dd {
+  margin-left: 0;
+}
