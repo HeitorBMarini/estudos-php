@@ -32,7 +32,7 @@ $contasCorrentes['123.256.789-12'] = depositar(
     900
 );
 
-unset($contasCorrentes['123.456.689-11']);
+// unset($contasCorrentes['123.456.689-11']); - isso faz com que pule a conta corrente especifica
 
 titularComLetrasMaiusculas($contasCorrentes['123.256.789-12']);
 
